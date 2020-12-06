@@ -45,7 +45,9 @@
                     name: '1'
                 }, {
                     name: '2'
-                })
+                });
+
+                this.$emit('onAddNode', node);
             }
         }
     }

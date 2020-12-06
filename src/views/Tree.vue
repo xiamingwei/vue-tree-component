@@ -10,12 +10,14 @@
      *    
      *  datas: 
      *      数据项: nodes
+     *      lazy: 是否开启懒加载
      *      options: 配置项,  是一个对象, 包括如下
      *              label: 节点名, 默认为name
      *              recursion: 递归名, 默认为children
      *              expandLabel: 展开标识符, 默认为expand
      *   methods: 
-     *       @on-expand: 展开/收缩时候的回调, 返回值为当前节点的信息
+     *      @on-expand: 展开/收缩时候的回调, 返回值为当前节点的信息
+     *      @loading-node: 懒加载调用方法
      *    
      */
     import forestTree from '@/components/tree/forest-tree.vue'

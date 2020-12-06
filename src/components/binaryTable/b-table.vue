@@ -34,9 +34,6 @@
                     }
                 }
             }
-        },
-        mounted() {
-            console.log(this.level)
         }
     }
 </script>
