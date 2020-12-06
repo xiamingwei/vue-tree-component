@@ -4,6 +4,7 @@
 
 1.展示树：
 用于平铺树形结构，可以动态增加减少节点。
+
 ![image](https://github.com/xiamingwei/vue-tree-component/blob/master/src/assets/trees/tree.png)
 
 ```
@@ -87,6 +88,7 @@ methods:
 
 5.树形表:
 用于展示树形表，树的行信息扩展
+
 ![image](https://github.com/xiamingwei/vue-tree-component/blob/master/src/assets/trees/tree-table.png)
 
 ```
